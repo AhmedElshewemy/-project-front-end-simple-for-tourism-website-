@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+  <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/master.css">
+        <title>Document</title>
+
+
+
+
+
+    </head>
+    <body> 
+        <div class="mom">
+        <ul>
+       <li><a class="mom1" href="../../elshewemy1.html" > HOME </a></li>
+       <li> <a class="mom1" href="../../hossam/pyramids.html"> Pyramids </a> </li>
+       <li> <a class="mom1" href="../../dina/dina1.html"> Cemeteries  </a> </li>
+        <li><a class="mom1" href="../../dina/dina2.html"> Temples </a> </li>
+        <!-- <li> <a class="mom1" href="#"> Museums </a></li> -->
+       <li><a class="mom1"  href="../castles/mina1.html"> Castles </a></li>
+       <li> <a class="mom1" href="../../omar/omar.html" > Mosques </a></li>
+       <li> <a class="mom1"  href="../../hossam/shortcoming.html"> Shortcomings </a></li>
+       <li> <a class="mom1"  href="mina2.html"> Churches </a></li>
+      </ul>
+      <a href=""><img src="parh.jpg" alt="logo" width="100px"  style="position: absolute; left: 90%; top: 7px;"></a>
+    </div>  
+    <div><img class="first" src="first.jpg"alt="first churche"></div>
+    <div class="main1">
+        <h1 calss="main">churches in egypt</h1>
+        <p class="description">Because Egypt is a predominantly Muslim country, most non-Egyptians are unaware that Egypt has some of the oldest and most historically significant churches, cathedrals and monasteries in this part of the world. </p>
+        <p class="description">You don’t need to be Egyptian or even Christian to appreciate the history of these centuries-old places of worship, or the beauty of the more modern ones. </p>
+        <p class="description">While many of these churches can be found in Coptic Cairo, some are in more… remote places (Sinai mountains, anyone?). But whatever the destination, each of these churches, cathedrals and monasteries should be visited at least once. </p>
+    <hr>
+    <br>
+    <div class="container">
+    
+        <h1>*Some churches you should visit in egypt*
+        </h1>
+        <button class="accordion "><b>1-Hanging Church</b></button>
+        <div class="panel" style="display: none;">
+     <h2 class="place">1-Hanging Church</h2>
+     <br>
+      <video class="hanging" controls src="hanging.mp4" title="hanging curch" > </video>
+       <p class="desc">The Hanging Church is believed to go back to the Patriarchate of Isaac of Alexandria, a Coptic Pope who held the office in the 7th century.</p>
+       <p class="desc">The church is constructed on the southern gatehouse of the Roman-developed Babylon Fortress and gets its name from the way that its core is suspended over a gate. Officially,</p>
+       <p class="desc">The Louvre has an astounding collection of 35,000 artworks, including countless masterpieces. It's impossible to see it all in a day or even in a week. Take a private guided tour or focus on a shortlist of key artworks for the most rewarding experience.</p>
+       <p class="desc"> Officially, it is known as the Church of the Virgin Mary. The Hanging Church is situated at the core of Old Cairo. The Hanging Church is recognized as the place of many specters of Mary. </p>
+       <p class="desc">Hence, this church’s interesting past makes it one of the oldest churches in Egypt.</p>
+       <br>
+        </div>
+    
+        <button class="accordion "><b>2-Saint Simon Church</b></button>
+        <div class="panel" style="display: none;">
+         <h2 class="place">2-Saint Simon Church</h2><br>
+         <img class="saint" src="saint.jpg" title="saint simon church">
+       <p class="desc">Numerous churches have been created into the caves located in Mokattam, out of which the Monastery of St. Simon the Tanner is the biggest with a seating range of 20,000. Even the Cave Church of St. Simon is the largest church in the whole Middle East</p>
+       
+      <p class="desc"> Simon the Tanner was an artist saint to whom the cave church was dedicated to. He is linked with the marvel of influencing the Mokattam mountain utilizing a pre-existing cave and the incline that directed inside it. it was made to hold two storeys. Different close by caves have also been developed into separate church locations and all of them have been connected to form a huge Christian complex in the core of garbage city </p>
+      
+      <p class="desc">The walls of the church are decorated with several incredible pictures carved on the rocks describing situations from the Bible.</p>
+      <br>
+         </div>
+    
+         <button class="accordion"><b>3-St. Catherine’s Monastery</b></button>
+        <div class="panel" style="display: none;">
+            <h2 class="place">3-St. Catherine’s Monastery</h2><br>
+            <img class="cath"src="Catherine.jpg" title="St. Catherine’s Monastery">
+             <p class="desc">Part of a UNESCO World Heritage Site (for other Egyptian heritage , the Orthodox Saint Catherine Monastery is the oldest Christian monastery in the world still used for its original function.  </p>
+            
+             <p class="desc">According to UNESCO: “Its walls and buildings are of great significance to studies of Byzantine architecture and the Monastery houses outstanding collections of early Christian manuscripts and icons. The rugged mountainous landscape, containing numerous archaeological and religious sites and monuments, forms a perfect backdrop to the Monastery.”
+            </p>
+            
+            <p class="desc"> St. Catherine's Monastery is at the foot of Mt. Sinai, where it's believed by the Abrahamic religions that Moses found the Burning Bush and received the 10 Commandments. </p>
+           <br>
+         </div>
+         <button class="accordion"><b>4-Church of St. George </b></button>
+         <div class="panel" style="display: none;">
+            <h2 class="place">4-Church of St. George </h2><br>
+            <img class="george" src="Geo.jpg" title="George.jpg">
+            <p class="desc">One of the few round churches built in Egypt, St. George’s is built on top of an ancient Roman Tower that connects to the monastery below.</p>
+            
+            <p class="desc">The interior of the church is known for its stained glass and rich woodwork.”</p>
+          
+           <p class="desc">St. George’s is one of the only still-active churches in the Coptic Cairo area, and is considered the principle Greek Orthodox church in Egypt. Visitors of all religions are welcome any time, except to the monastery, which is closed to the public.</p>
+           <br>
+         </div>
+         <script>
+            var acc = document.getElementsByClassName("accordion");
+             var i;
+             for (i = 0; i < acc.length; i++) {
+               acc[i].addEventListener("click", function() {
+                 this.classList.toggle("active");
+                 var panel = this.nextElementSibling;
+                 if (panel.style.display === "block") {
+                   panel.style.display = "none";
+                 } else {
+                   panel.style.display = "block";
+                 }
+               });
+             }
+             </script>
+    </body>
+</html>
