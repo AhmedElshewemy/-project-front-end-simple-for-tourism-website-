@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="description"content=""/>
+    <title> Egyptian landmarks </title>
+<link rel="stylesheet" href="contact.css">
+<!-- bootstrab -->
+<!--  -->
+                        
+<!-- mina fff -->
+<script>
+function checkForm(form)
+            {
+              if(form.inputname.value == "") 
+              {
+                alert("Error: your name is empty!");
+                form.inputname.focus();
+                return false;
+              }
+              var re = /^[\w ]+$/;
+              if(!re.test(form.inputname.value)) 
+              {
+                alert("Error: your name contains invalid characters!");
+                form.inputname.focus();
+                return false;
+              }
+
+              if(form.inputphone.value == "") 
+              {
+                alert("Error: phonenumber is empty!");
+                form.inputphone.focus();
+                return false;
+              }
+              if(form.inputsubject.value == "") 
+              {
+                alert("Error: subject is empty!");
+                form.inputsubject.focus();
+                return false;
+              }
+              if(form.inputmassage.value == "") 
+              {
+                alert("Error: your massage is empty!");
+                form.inputmassage.focus();
+                return false;
+              }
+              return true;
+           }
+        </script>
+
+                        </head>
+<body > 
+
+<div class="band1"  >
+  
+  <ul>
+ <li><a class="band1f1" href="elshewemy1.html" > HOME </a></li>
+ <li> <a class="band1f1" href="hossam/pyramids.html"> Pyramids </a> </li>
+ <li> <a class="band1f1" href="dina/dina1.html"> Cemeteries  </a> </li>
+  <li><a class="band1f1" href="dina/dina2.html"> Temples </a> </li>
+  <!-- <li> <a class="band1f1" href="#"> Museums </a></li> -->
+ <li><a class="band1f1"  href="mina/castles/mina1.html"> Castles </a></li>
+ <li> <a class="band1f1" href="omar/omar.html" > Mosques </a></li>
+ <li> <a class="band1f1"  href="hossam/shortcoming.html"> Shortcomings </a></li>
+ <li> <a class="band1f1"  href="mina/churches/mina2.html"> Churches </a></li>
+</ul>
+<a href=""><img src="parh.png" alt="logo" width="100px"  style="position: absolute; left: 90%; top: 7px;"></a>
+   </div>
+   
+
+
+
+
+ <div class="centerh">
+
+    <div class="w3s">	
+	 <form action="elshewemy2.html"  class="fw3s">
+	  
+	  <!-- <legend><h1>sign up :</h1></legend> -->
+	  <h1 class=" legend">sign up </h1>
+	  <label for="fname">First name:</label>
+	  <input type="text"  name="fname"><br><br>
+	  <label for="lname">Last name:</label>
+	  <input type="text"  name="lname"><br><br>
+	  <label for="email">Email:</label>
+	  <input type="email"  name="email" placeholder="Email"><br><br>
+	  <label for="password">Password :</label>
+	  <input type="password" name="password" placeholder="password"><br><br>
+	  <label for="birthday">Birthday:</label>
+	  <input type="date" id="birthday" name="birthday"><br><br>
+	  <input type="submit" value="Submit" style="margin: 15px; padding: 10px;">
+	  
+	 </form>
+	</div>
+	
+
+
+		<div class="mf">
+            <form  method="POST" action="elshewemy2.html" onsubmit="return checkForm(this);">
+                
+                    <h1 class="legend">contact us</h1>
+                    <label style="margin-right:2px ;"> <span>Your Name:</span></label>
+                    <input type="text" name="inputname" placeholder="Enter your name">
+                    <br><br>
+                    <label>your phone:</label>
+                    <input type="text" name="inputphone" placeholder="Enter phonenumber">
+                    <br><br>
+                    <label style="margin-right:38px ;"> subject :</label>
+                    <input type="text" name="inputsubject">
+                    <br><br>
+                    <label  style="margin-left: 40px; ">your massage</label>
+                    <br>
+                    <textarea class="massage" name="inputmassage" placeholder="leave your massage"></textarea>
+                    <br>
+                    <button type="submit" style="margin: 15px; padding: 10px; margin-top: 5px; ">Send</button>
+                
+            </form>
+        </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+
+   *{
+    padding:0;
+    margin: 0;
+  }
+
+  body{
+background-color: wheat;
+  }
+
+.band1{
+  position: sticky;
+top: 0px;
+    padding: 30px 0px 0px 0px; 
+ background-color: #000;
+ height: 50px;
+ width: 100%;
+   } 
+ 
+ .band1f1{
+ background-color: yellow;
+ margin: 10px;
+ padding: 10px;
+   }
+   li{
+    display: inline;
+  
+  }
+  a{
+    color: black;
+    cursor: grab;
+    text-decoration: none ;
+  }
+  
+
+  a:hover{
+    color: orange;
+  }
+  /* .about{
+
+   width: 500px;
+   height: 900px;
+  } */
+  .h1About{
+    padding: 20px;
+    margin: 20px;
+  }
+  .members{
+
+    background-color: white;
+    width: 25%;
+margin: 20px;
+
+    padding: 30px;
+   display: inline-block;
+  }
+
+
+  /* aaaaaaaaaaaaaaaaaaaaaaaa */
+  .members:hover
+{
+    background-color: rgba(252, 252, 252,0.39 );
+    cursor: grab;
+    color: black;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+footer
+{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    letter-spacing: 2px;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    /* height: 10px; */
+}
+
+  footer p
+  {
+      color: rgb(235, 35, 168);
+      font-weight: bold;
+  }
