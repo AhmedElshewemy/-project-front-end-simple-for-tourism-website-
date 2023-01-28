@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Spain</title>
+        <link rel="stylesheet" href="css/styleSpain.css">
+        <style>
+        *
+        {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body
+        {
+        color: black;
+        background-color: rgb(236, 220, 247)
+        }
+        header div
+        {
+        background-color: #0b2239;
+        margin: 0;
+        padding: 15px;
+        }
+        div a
+        {
+        text-transform: capitalize;
+        text-decoration-line: none;
+        /* color: white; */
+        }
+        /* div a:hover
+        {
+        color: #0F0;
+        }
+         */
+        header h1
+        {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 45px;
+        display: inline-block;
+        letter-spacing: 1px;
+        }
+        header
+        {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        }
+        
+        nav
+        {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: rgb(255, 255, 255);
+        }
+        
+        nav a
+        {
+        display: inline;
+        font-weight: bold;
+        padding-right: 25px;
+        padding-left: 25px;
+        }
+        footer
+        {
+        color: white;
+        text-align: center;
+        background-color: #0b2239;
+        margin: 0;
+        padding: 15px;
+        letter-spacing: 1px;
+        }
+        footer p
+        {
+        color: rgb(235, 35, 168);
+        font-weight: bold;
+        }
+        a
+        {
+        text-decoration-line: none;
+        color: black;
+        font-size: 20px;
+        }
+        
+        nav a.inactive:hover
+        {
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: rgb(235, 35, 168);
+        border-bottom: 2px solid #0b2239;
+        }
+        .Logo
+        {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #0b2239;
+        
+        }
+        .body
+        {
+        padding-top: 120px;
+        }
+        .body h1
+        {
+        padding-top: 20px;
+        text-align: center;
+        }
+        .all
+        {
+        background-color: rgb(231, 231, 231);
+        }
+        .text1
+        {    width: 50%;
+        float: left;
+        margin:0 0px 30px 0px;
+        }
+        .text2
+        {    width: 50%;
+        float: left;
+        margin:30px 0px;
+        }
+        .text3
+        {
+        width: 50%;
+        float: left;
+        margin:30px 0px;
+        }
+        .text4
+        {
+        width: 50%;
+        float: left; 
+        margin:30px 0px;
+        }
+        .text5
+        {    width: 50%;
+        float: left;
+        margin:30px 0px;
+        }
+        .text6
+        {    width: 50%;
+        float: left;
+        margin:30px 0px;
+        }
+        .text1 p,.text2 p,.text3 p,.text4 p,.text5 p,.text6 p
+        {   
+        background-color: #d2d9f1;  
+        height: 450px;
+        overflow: auto;  
+        text-align: justify;
+        font-size: 20px; 
+        margin-right:20px ;
+        }    
+        .text1 img,.text2 img,.text3 img,.text4 img,.text5 img,.text6 img
+        {
+        width: 100%;
+        height: 450px;
+        }
+        .clear
+        {
+        clear: both;
+        }
+        .container
+        {
+        margin: 0 30px;
+        }
+        #mores
+        {
+        position: relative;
+        
+        }
+        #mores img
+        {
+        vertical-align: middle;
+        }
+        #mores .content
+        {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.514);
+        color: white;
+        width: 100%;
+        padding: 20px;
+        }
+        #myBtn {
+        display: none; 
+        position: fixed; 
+        bottom: 20px; 
+        right: 30px; 
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.541); 
+        color: white; 
+        font-weight: bold;
+        cursor: pointer;
+        padding: 15px; 
+        border-radius: 10px; 
+        font-size: 18px; 
+        }
+        
+        #myBtn:hover {
+        background-color: #0b2239; 
+        }
+        *{
+        padding:0;
+        margin: 0;
+        }
+        
+        .band1{
+
+    padding: 30px 0px 0px 0px; 
+ background-color: #000;
+ height: 50px;
+ width: 100%;
+   } 
+ 
+ .band1f1{
+ background-color: yellow;
+ margin: 10px;
+ padding: 10px;
+   }
+   li{
+    display: inline;
+  
+  }
+  a{
+    color: black;
+    cursor: grab;
+    text-decoration: none ;
+  }
+  
+
+  a:hover{
+    color: orange;
+  }
+        
+        </style>
+
+    </head>
+    <body>
+    <div class="band1">
+    <ul>
+    <li><a class="band1f1" href="../elshewemy1.html" > HOME </a></li>
+    <li> <a class="band1f1" href="../hossam/pyramids.html"> Pyramids </a> </li>
+    <li> <a class="band1f1" href="../dina/dina1.html"> Cemeteries  </a> </li>
+    <li><a class="band1f1" href="../dina/dina2.html"> Temples </a> </li>
+    <!-- <li> <a class="band1f1" href="#"> Museums </a></li> -->
+    <li><a class="band1f1"  href="../mina/castles/mina1.html"> Castles </a></li>
+    <li> <a class="band1f1" href="../omar/omar.html" > Mosques </a></li>
+    <li> <a class="band1f1" href="../hossam/shortcoming.html" > Shortcomings </a></li>
+    <li> <a class="band1f1"  href="../mina/churches/mina2.html" > Churches </a></li>
+    </ul>
+    <a href=""><img src="parh.png" alt="logo" width="100px"  style="position: absolute; left: 90%; top: 7px;"></a>
+    </div>
+   
+            <div class="Logo">
+                <h1>mosques </h1>
+            </div>
+          
+            <hr>
+        </header>
+        <div class="body">
+            <br><h1>amr bn el as mosque </h1><br>
+            <div class="container">
+                <div class="part1">
+                    <div class="text1" >
+                        <p>The  Mosque of Amr ibn al-As or Taj al-Jawame 
+                        or Masjid Ahl ar-Rayah or Jame’ al-Ateeq  
+                        was originally built in 641–642 AD, as the
+                        center of the newly founded capital of Egypt, 
+                        Fustat. The original structure was the first mosque
+                        ever built in Egypt and the whole of Africa
+                        For 600 years, the mosque was also an important 
+                        center of Islamic learning until Al-Muizz's Al-Azhar Mosque
+                        in Islamic Cairo replaced it.
+                        Through the twentieth century
+                        , it was the fourth largest mosque 
+                        in the Islamic world.
+                        
+                        </p>
+                    </div>
+                    <div class="text1" id="mores">
+          
+                        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/9f/2a.jpg">
+                        <div class="content">
+                            <h1>amr bn el as mosque </h1>
+                        </div>
+                    </div><br>
+                </div>
+                <h1>ahmed bn tulun mosque </h1>
+                <hr>
+                <div class="part2">
+                    <div class="text2">
+                    
+                        <p>Mosque of Ibn Tulun is located in Cairo, Egypt.
+                        It is one of the oldest mosques in Egypt 
+                        as well as the whole of Africa surviving in its full original form,
+                        and is the largest mosque in Cairo in terms of land area.
+                        Since Ibn Tulun Mosque has much open space, 
+                        it boasts both sunlight and shadows.
+                        It is built around an open square courtyard which allows natural light
+                        to travel through. Ibn Tulun Mosque 
+                        features ancient architecture styles of Egypt, 
+                        its decorations being created from carved stucco and wood.
+                        This mosque is a popular tourist attraction.
+                        </p>
+                    </div>
+                    <div class="text2" id="mores">
+                        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/8e/84.jpg">
+                        <div class="content">
+                            <h1>ahmed bn tulun mosque </h1>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h1>Al-Azher Mosque </h1>
+                <div class="part3">
+                    <div class="text3">
+                        <p>
+                        Al-Azhar Mosque , known simply in Egypt as al-Azhar, 
+                        is an Egyptian mosque in Islamic Cairo. 
+                        Al-Mu'izz li-Din Allah of the Fatimid dynasty 
+                        commissioned its construction for the newly established 
+                        capital city in 970. Its name is usually thought to derive 
+                        from az-Zahrāʾ (meaning "the shining one"),
+                        a title given to Fatimah. It was the first mosque 
+                        established in Cairo, a city that has since gained the nickname
+                        "the City of a Thousand Minarets".
+                        </p>
+                    </div>
+                    <div class="text3" id="mores">
+                        <img src ="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2c/f1/e1.jpg">
+                        <div class="content">
+                            <h1>Al-Azher Mosque </h1>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h1>Al-Mu'ayyad Mosque</h1>
+                <h1></h1>
+                <div class="part4">
+                    <div class="text4">
+                    <p>
+                    
+                    The Mosque of Sultan al-Mu'ayyad 
+                    is a Mosque in Cairo, Egypt next to Bab Zuwayla
+                    built under the rule of sultan 
+                    Al-Mu'ayyad Sayf ad-Din Shaykh from whom it takes its name, "Al-Mu'ayyad", 
+                    meaning The Supporter in Arabic language. 
+                    Construction began in 1415 and the mosque
+                    was completed in 1421. The complex included 
+                    a Friday mosque and a madrasa for four madhhabs.
+                    It replaced a prison which originally stood next to Bab Zuwayla</p>
+                    </div>
+                    <div class="text4" id="mores">
+                        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/67/21.jpg">
+                        <div class="content">
+                            <h1>Al-Muayyad Mosque </h1>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h1>Al-Fath Mosque</h1>
+                <div class="part5">
+                    <div class="text5">
+                        <p>
+                      
+                      Al-Fath Mosque is a mosque in the city of Cairo. 
+                      Located in the Ramses Square, it is among the largest mosques 
+                      and equips the tallest minaret in the city and the 3rd tallest in the world.
+                      During the post-coup unrest in Egypt, 
+                      the Second Ramses Incident took place
+                      in the mosque on August 16, 2013 which resulted
+                      in the death and injury of several protesters 
+                      and subsequent shut down of the mosque.
+                        </p></div>
+                        <div class="text5" id="mores">
+                        <img src="https://www.arabcont.com/Images/ProjectImage/Fath01.jpg">
+                        <div class="content">
+                        <h1>Al-Fath mosque Mosque </h1>
+                        </div>
+                        </div>
+                        </div>
+                        <hr>
+                        <h1>Sultan Hassan Mosque</h1>
+                        <div class="part6">
+                        <div class="text6">
+                        <p> 
+                        The Mosque-Madrasa of Sultan Hassan 
+                        is a monumental mosque and madrasa located in the historic district of Cairo, Egypt. 
+                        It was built between 1356 and 1363 during the Bahri Mamluk period, 
+                        commissioned by Sultan an-Nasir Hasan.
+                        The mosque was considered remarkable 
+                        for its massive size and innovative architectural components, and is still considered 
+                        one of the most impressive historic monuments 
+                        in Cairo today. </p>
+                        </div>
+                        <div class="text6" id="mores">
+                        <img src="https://lp-cms-production.imgix.net/2019-06/adfbb8da1b7855f393df88afa1b270fb-mosque-madrassa-of-sultan-hassan.jpg?auto=compress&crop=center&fit=crop&format=auto&h=280&w=640">
+                        <div class="content">
+                        <h1>Sultan Hassan Mosque </h1>
+                        </div>
+                        </div>
+                        <br>
+                        </div>
+                        </div>
+                        <button onclick="topFunction()" id="myBtn" title="Go to top">Go Top</button>
+                        </div>
+                        <div class="clear"></div>
+                        <script type="text/javascript">
+                        mybutton = document.getElementById("myBtn");
+                        window.onscroll = function() {scrollFunction()};
+                        function scrollFunction() {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                        } else {
+                        mybutton.style.display = "none";
+                        }
+                        }
+                        function topFunction() {
+                        document.body.scrollTop = 0;
+                        document.documentElement.scrollTop = 0; 
+                        } 
+                        </script>
+                        
+                        
+                        </body>
+                        </html>
