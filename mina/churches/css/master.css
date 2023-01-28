@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin: 0;
+  }
+  body{
+    background-color: white;
+  }
+
+.mom{
+  position: sticky;
+  top: 0px;
+    padding: 30px 0px 0px 0px; 
+ background-color: #000;
+ height: 50px;
+ width: 100%;
+   } 
+ 
+ .mom1{
+ background-color: yellow;
+ margin: 10px;
+ padding: 10px;
+   }
+   li{
+    display: inline;
+  
+  }
+  a{
+    color: black;
+    cursor: grab;
+    text-decoration: none ;
+  }
+  
+  a:hover{
+    color: orange;}
+
+img.first{
+    
+        width: 1150px;
+        height: 500px;
+        border: 15px ridge #fff;
+        margin-left: 160px;
+        margin-top: 30px;
+}
+.main1{
+    background-color :lightblue;
+    width: 1150px;
+    margin-left: 175px;
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.description{
+    width: 900px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 80px ;
+    font-style: italic;
+    font-size: 23px;
+}
+.accordion {
+    width: 100%;
+    border: inset;
+    background: white;
+    padding: 20px;
+    text-align: left;
+}
+video.hanging{
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+img.saint{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+p.desc{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img.cath{
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+img.george{
+    width: 450px;
+    height: 210px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+
